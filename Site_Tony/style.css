@@ -1,0 +1,256 @@
+@font-face {
+  font-family: poppins;
+  src: url(/SOURCES/Poppins-Bold.ttf);
+}
+
+body {
+  background-color: #00272b;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 5vh;
+}
+
+.section1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  color: #f25c05;
+
+  font-size: 5em;
+  font-family: poppins;
+  text-align: center;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 1vh;
+}
+
+.arrow {
+  width: 65px;
+  position: relative;
+  left: 35vw;
+  rotate: -60deg;
+}
+
+.tony {
+  width: 300px;
+}
+
+.ballons_tony {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 150px;
+}
+
+.ballon {
+  height: 170px;
+  margin: auto;
+}
+
+.gif {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: #f25c05;
+
+  font-size: 4em;
+  font-family: poppins;
+  text-align: center;
+  line-height: 1em;
+  margin-top: 0;
+}
+
+.montagne {
+  display: flex;
+  justify-content: center;
+}
+
+.montagne img {
+  width: 200px;
+}
+
+.egal {
+  margin: revert-layer;
+}
+
+.section3 {
+  height: 100vh;
+  background-image: url("SOURCES/Vue-Le-Gd-Bo-Chinaillon©-P.-Lebeau_Le-Grand-Bornand.jpg");
+  background-size: cover;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  color: #f25c05;
+  font-size: 6em;
+  font-family: poppins;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.trait {
+  border: #f25c05 5px solid;
+  width: 60%;
+
+  border-radius: 10px;
+}
+
+.arrow2 {
+  width: 80px;
+  position: relative;
+  left: 30vw;
+  rotate: 110deg;
+}
+
+.section5 {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.section5 h3 {
+  margin-right: 40vh;
+}
+
+.section5 .img_raquette {
+  width: 50vw;
+}
+
+.arrow3 {
+  width: 80px;
+  position: relative;
+  left: 30vw;
+  rotate: 190deg;
+}
+
+.section6 {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.section6 h3 {
+  margin-top: 10vh;
+}
+
+.section6 .img_detente {
+  width: 50vw;
+}
+
+.h4 {
+  padding: 5px;
+  text-align: right;
+}
+
+.arrow4 {
+  width: 80px;
+  height: 64px;
+  position: relative;
+  left: 15vw;
+  rotate: 45deg;
+  transform: scaleY(-1);
+}
+
+.section7 {
+  background-image: url("SOURCES/speed-riding-school-lessons-2048x716.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.section7_content {
+  display: flex;
+  margin-left: 13vw;
+}
+
+.section7 h3 {
+  margin-top: 15vh;
+}
+
+.arrow5 {
+  width: 80px;
+  height: 64px;
+  position: relative;
+  rotate: -60deg;
+  margin-top: 5vh;
+}
+
+.section8 {
+  height: 100vh;
+}
+
+.ballon {
+  height: 170px;
+  margin-left: inherit;
+}
+
+.heart {
+  height: 80px;
+  margin-right: inherit;
+}
+
+.trait {
+  border: #f25c05 2px solid;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.section8 img {
+  width: 100%;
+}
+
+.section8 h3 {
+  margin-bottom: 5vh;
+}
+
+.section9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h5 {
+  color: #f25c05;
+  font-size: 5em;
+  font-family: poppins;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 4vh;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: #f25c05;
+  font-size: 5em;
+  font-family: poppins;
+  line-height: 1em;
+  margin-top: 4vh;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.ballons_footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 150px;
+}
+
+.ballon {
+  height: 170px;
+  margin: auto;
+}

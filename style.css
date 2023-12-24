@@ -130,7 +130,7 @@ h4 {
 }
 
 .section5 h3 {
-  margin-right: 35vh;
+  margin-right: 48vh;
 }
 
 .section5 .img_raquette {
@@ -152,7 +152,7 @@ h4 {
 
 .section6 h3 {
   margin-top: 10vh;
-  margin-left: 10vw;
+  margin-left: 18vw;
 }
 
 .section6 .img_detente {
@@ -168,7 +168,7 @@ h4 {
   width: 80px;
   height: 64px;
   position: relative;
-  left: 15vw;
+  left: 20vw;
   rotate: 45deg;
   transform: scaleY(-1);
 }
@@ -181,7 +181,7 @@ h4 {
 
 .section7_content {
   display: flex;
-  margin-left: 10vw;
+  margin-left: 18vw;
 }
 
 .section7 h3 {

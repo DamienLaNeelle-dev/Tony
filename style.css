@@ -128,7 +128,7 @@ h4 {
 }
 
 .section5 h3 {
-  margin-right: 40vh;
+  margin-right: 35vh;
 }
 
 .section5 .img_raquette {
@@ -150,6 +150,7 @@ h4 {
 
 .section6 h3 {
   margin-top: 10vh;
+  margin-left: 10vw;
 }
 
 .section6 .img_detente {
@@ -178,7 +179,7 @@ h4 {
 
 .section7_content {
   display: flex;
-  margin-left: 13vw;
+  margin-left: 10vw;
 }
 
 .section7 h3 {

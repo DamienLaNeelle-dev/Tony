@@ -120,3 +120,5 @@
     isDrawing = false;
   }
 })();
+
+console.log("hello");

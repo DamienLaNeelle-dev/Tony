@@ -1,0 +1,99 @@
+@font-face {
+  font-family: poppins;
+  src: url(/SOURCES/Poppins-Bold.ttf);
+}
+
+body {
+  background-color: #00272b;
+  margin: 0 30px;
+  overflow-y: hidden;
+}
+
+.container {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: poppins;
+  color: white;
+  margin: 0;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+}
+
+.day {
+  font-size: 8em;
+  height: 140px;
+}
+.month {
+  font-size: 3em;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+}
+
+.form {
+  padding: 20px;
+}
+
+.scratch {
+  margin-top: 15px;
+}
+
+.scratch_container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: poppins;
+  font-size: 2em;
+  text-align: center;
+}
+
+.img_gif {
+  width: 300px;
+}
+h2 {
+  color: #f25c05;
+  font-size: 2em;
+  font-family: poppins;
+  text-align: center;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 1vh;
+}
+.programme {
+  color: #f25c05;
+  font-size: 2em;
+  font-family: poppins;
+  text-align: center;
+  line-height: 1.4em;
+  margin-top: 0;
+  margin-bottom: 1vh;
+}
+
+.arrow {
+  width: 35px;
+  rotate: -55deg;
+  margin-top: 2px;
+}

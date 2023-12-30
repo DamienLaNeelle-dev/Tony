@@ -27,7 +27,6 @@ body {
 h1,
 h2 {
   color: #f25c05;
-
   font-size: 5em;
   font-family: poppins;
   text-align: center;
@@ -260,4 +259,63 @@ h6 {
 .ballon {
   height: 170px;
   margin: auto;
+}
+
+/* screen phone */
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 40px;
+    height: 50vh;
+  }
+
+  .section1 .container_tony {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section1 .tony {
+    width: 150px;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  p {
+    background-color: #f25c05;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: poppins;
+    line-height: 0.8em;
+    width: 165px;
+    height: 165px;
+    display: flex;
+    /* margin: auto 0; */
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .day {
+    font-size: 2.5em;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
